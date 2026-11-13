@@ -7,7 +7,7 @@ function Home() {
   const [records] = useState(concerts);
   const [search, setSearch] = useState("");
   const [type, setType] = useState("All");
-  const [sortBy, setSortBy] = useState("date");
+  const [sortBy, setSortBy] = useState("id");
 
   const visible = records
     .filter((c) =>

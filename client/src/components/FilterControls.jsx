@@ -14,6 +14,7 @@ function FilterControls({ search, setSearch, type, setType, sortBy, setSortBy })
         <option value="Solo">Solo</option>
       </select>
       <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
+        <option value="id">Default order</option>
         <option value="date">Sort by date</option>
         <option value="price">Sort by price</option>
         <option value="artist">Sort by artist</option>
