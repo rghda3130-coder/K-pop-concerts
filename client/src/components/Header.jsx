@@ -1,15 +1,19 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
-    <header>
-      <h1>K-Pop Concerts</h1>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/login">Login</Link>
-        <Link to="/register">Register</Link>
-        <Link to="/about">About</Link>
+    <header className="header">
+      <h1 className="logo">K-Pop Concerts</h1>
+
+      <nav className="nav-links">
+        <NavLink to="/" end>Home</NavLink>
+        <NavLink to="/about">About</NavLink>
       </nav>
+
+      <div className="auth-buttons">
+        <NavLink to="/login" className="btn btn-outline">Login</NavLink>
+        <NavLink to="/register" className="btn btn-solid">Register</NavLink>
+      </div>
     </header>
   );
 }

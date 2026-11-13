@@ -1,5 +1,5 @@
 const concerts = [
-  { id: 1, artist: "BLACKPINK", tour: "Born Pink Encore", type: "Girl Group", city: "London", country: "UK", venue: "Wembley Stadium", date: "2027-04-05", price: 210, description: "Big stage, big visuals, all the hits." },
+  { id: 1, artist: "BLACKPINK", tour: "DEADLINE ", type: "Girl Group", city: "London", country: "UK", venue: "Wembley Stadium", date: "2027-04-05", price: 210, description: "Big stage, big visuals, all the hits." },
   { id: 2, artist: "TREASURE", tour: "Reboot", type: "Boy Group", city: "Seoul", country: "South Korea", venue: "Olympic Stadium", date: "2027-03-12", price: 150, description: "Energetic performances with strong vocals and dance." },
   { id: 3, artist: "Stray Kids", tour: "Dominate World", type: "Boy Group", city: "Tokyo", country: "Japan", venue: "Tokyo Dome", date: "2027-02-20", price: 150, description: "High-energy performance with live band parts." },
   { id: 4, artist: "NewJeans", tour: "Bunnies Camp", type: "Girl Group", city: "Los Angeles", country: "USA", venue: "Kia Forum", date: "2027-05-18", price: 130, description: "Fresh, laid-back concert with a summer feel." },
