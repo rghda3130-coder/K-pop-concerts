@@ -12,4 +12,4 @@
 [c9342cf58af041c9690051ee61421b09f47152a9]
 
 **Deployed Front-End URL:**
-[PASTE YOUR RENDER WEBSITE LINK HERE]
+[https://k-pop-concerts.onrender.com]
