@@ -1,8 +1,9 @@
 function About() {
   return (
-    <div className="about-box">
-      <h2>About</h2>
-      <p>This app lists K-pop concerts and lets you search and sort them.</p>
+    <div className="about-box" className="page">
+      <div className="about-box">
+        <h2>About</h2>
+        <p>This app lists K-pop concerts and lets you search, filter and sort them.</p>
 
       <h3>Features</h3>
       <ul>
@@ -11,8 +12,9 @@ function About() {
         <li>Sort by date, price, or artist</li>
       </ul>
 
-      <p>Developed by : Raghad, Sadeel</p>
+        <p>Developed by : Raghad Hussien, Sadeel Yosiff</p>
       <p>hope you enjoy the app!</p>
+      </div>
     </div>
   );
 }

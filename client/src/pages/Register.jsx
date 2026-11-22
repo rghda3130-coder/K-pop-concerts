@@ -1,14 +1,14 @@
 function Register() {
   return (
-    <div >
-      <h2>Register</h2>
+    <div className="page">
       <form className="form">
-        <label>Name</label>
-        <input type="text" placeholder="Name" />
-        <label>Email</label>
-        <input type="email" placeholder="Email" />
-        <label>Password</label>
-        <input type="password" placeholder="Password" />
+        <h2>Register</h2>
+        <label htmlFor="name">Name</label>
+        <input id="name" type="text" placeholder="Your name" />
+        <label htmlFor="email">Email</label>
+        <input id="email" type="email" placeholder="you@example.com" />
+        <label htmlFor="password">Password</label>
+        <input id="password" type="password" placeholder="Password" />
         <button type="submit">Register</button>
       </form>
     </div>
