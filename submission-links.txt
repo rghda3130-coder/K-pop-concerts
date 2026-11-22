@@ -1,15 +1,15 @@
-**Project Title:** K-Pop Concerts
+Project Title: K-Pop Concerts
 
-**Team Members:**
+Team Members:
 
 1. Sadeel Al Harahshah – Student ID: 2338076
 2. Raghad Hussein Dakhalala Alsbehat – Student ID: 2338089
 
-**GitHub Repository URL:**
-[https://github.com/rghda3130-coder/K-pop-concerts]
+GitHub Repository URL:
+https://github.com/rghda3130-coder/K-pop-concerts
 
-**Submitted Commit Hash:**
-[c9342cf58af041c9690051ee61421b09f47152a9]
+Submitted Commit Hash:
+be792c81c57627757c49db0535e31ed5507d7791
 
-**Deployed Front-End URL:**
-[https://k-pop-concerts.onrender.com]
+Deployed Front-End URL:
+https://k-pop-concerts.onrender.com
