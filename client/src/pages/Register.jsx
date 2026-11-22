@@ -1,8 +1,8 @@
 function Register() {
   return (
-    <div>
+    <div >
       <h2>Register</h2>
-      <form>
+      <form className="form">
         <label>Name</label>
         <input type="text" placeholder="Name" />
         <label>Email</label>

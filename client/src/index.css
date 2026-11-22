@@ -215,6 +215,7 @@ body {
   border: 1px solid var(--border);
   padding: 2rem;
   border-radius: 16px;
+  align-items: stretch;
 }
 
 .form h2 {

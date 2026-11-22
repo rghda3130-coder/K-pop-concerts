@@ -1,8 +1,8 @@
 function Login() {
   return (
-    <div>
+    <div >
       <h2>Login</h2>
-      <form>
+      <form className="form">
         <label>Email</label>
         <input type="email" placeholder="Email" />
         <label>Password</label>
