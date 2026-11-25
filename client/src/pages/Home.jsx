@@ -12,7 +12,8 @@ function Home() {
   const visible = records
     .filter((c) =>
       (c.artist + " " + c.city).toLowerCase().includes(search.toLowerCase())
-    )
+ ||
+      c.city.toLowerCase().includes(search.toLowerCase())    )
     .filter((c) => type === "All" || c.type === type)
     .sort((a, b) => (a[sortBy] > b[sortBy] ? 1 : -1));
 
